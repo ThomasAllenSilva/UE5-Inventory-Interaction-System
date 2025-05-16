@@ -10,6 +10,14 @@
 
 [Screenshots](#screenshots)
 
+# How To Download
+
+This project was made using UnrealEngine 5.3.2
+
+1 - Run the command 'git clone git@github.com:ThomasAllenSilva/UE5-Inventory-Interaction-System.git'
+
+2 - Right-click in the .uproject file and click open, then click 'Yes' to rebuild the modules. (This may take from 1 to 2 minutes)
+
 # Summary
 An inventory interaction system implemented using C++ and Blueprints. It also includes widgets for displaying inventory content and a tutorial dialogue inside the map (talk to the NPC).
 
