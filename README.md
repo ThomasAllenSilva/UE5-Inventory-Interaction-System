@@ -6,6 +6,16 @@
 
 [How To Test](#how-to-test)
 
+# Summary
+An inventory interaction system implemented using C++ and Blueprints. It also includes widgets for displaying inventory content and a tutorial dialogue within the map.
+
+Features:
+- Inventory System
+- Dialogue Trigger
+- Forget Note
+- Inventory Drag-and-drop
+- Inventory Item preview
+
 # How It Works
 [Common Framework](#common-framework)
 
@@ -56,3 +66,16 @@ The rest of the project features implementation was done using Blueprints, which
 
 # How To Test
 You can move the character using the W-A-S-D keys, and use the 'E' key to interact with objects. To drag and drop items in the inventory, click and hold with Mouse1, then drag. To drop an item, simply release the mouse button. You can use the same drag operation to rotate the object in the inventory preview, and use the mouse wheel to zoom in and out.
+
+![0](https://github.com/user-attachments/assets/f502021c-b92a-4f9f-870c-1e10f37a2fb9)
+
+
+![1](https://github.com/user-attachments/assets/d7844f20-bffe-429d-86c2-2e114f79c144)
+
+
+![2](https://github.com/user-attachments/assets/10750d4a-04cf-4f64-a859-a17dc85e54a9)
+
+
+![3](https://github.com/user-attachments/assets/5b9c1357-71bb-48e9-abcf-b7809b05e92f)
+
+
