@@ -42,4 +42,4 @@ UBoxComponent used to identify actors that implements the IInteractableInterface
 This can be implemented by any Actor that you want to have some form of interaction. It receives events for when the object is focused, unfocused, and also when the player wants to interact with it. There are two types of interaction in this project: Dialogue and Collectable Item. They both use the same interface, implementing their own logic.
 
 # How To Test
-Test2
+You can move the character using the W-A-S-D keys, and use the 'E' key to interact with objects. To drag and drop items in the inventory, click and hold with Mouse1, then drag. To drop an item, simply release the mouse button. You can use the same drag operation to rotate the object in the inventory preview, and use the mouse wheel to zoom in and out.
