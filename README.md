@@ -7,7 +7,7 @@
 [How To Test](#how-to-test)
 
 # Summary
-An inventory interaction system implemented using C++ and Blueprints. It also includes widgets for displaying inventory content and a tutorial dialogue within the map.
+An inventory interaction system implemented using C++ and Blueprints. It also includes widgets for displaying inventory content and a tutorial dialogue inside the map (talk to the NPC).
 
 Features:
 - Inventory System
