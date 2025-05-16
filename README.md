@@ -2,9 +2,13 @@
 
 ##### Table of Contents  
 
+[Summary](#summary)
+
 [How It Works](#how-it-works)
 
 [How To Test](#how-to-test)
+
+[Screenshots](#screenshots)
 
 # Summary
 An inventory interaction system implemented using C++ and Blueprints. It also includes widgets for displaying inventory content and a tutorial dialogue inside the map (talk to the NPC).
@@ -67,6 +71,7 @@ The rest of the project features implementation was done using Blueprints, which
 # How To Test
 You can move the character using the W-A-S-D keys, and use the 'E' key to interact with objects. To drag and drop items in the inventory, click and hold with Mouse1, then drag. To drop an item, simply release the mouse button. You can use the same drag operation to rotate the object in the inventory preview, and use the mouse wheel to zoom in and out.
 
+# Screenshots
 ![0](https://github.com/user-attachments/assets/f502021c-b92a-4f9f-870c-1e10f37a2fb9)
 
 
