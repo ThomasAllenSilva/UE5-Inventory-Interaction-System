@@ -41,5 +41,18 @@ UBoxComponent used to identify actors that implements the IInteractableInterface
 # Interactable Interface
 This can be implemented by any Actor that you want to have some form of interaction. It receives events for when the object is focused, unfocused, and also when the player wants to interact with it. There are two types of interaction in this project: Dialogue and Collectable Item. They both use the same interface, implementing their own logic.
 
+# Conclusion
+These are essentially the core scripts of the project. There are additional scripts as well, and all of them are fully documented in the .h files. However, I'll provide a quick description of each one here: 
+
+ACollectableItem: An Actor that can be collected and added to another Actor's inventory. It serves as a base class that contains the item data and a default interaction implementation.
+
+UDataAsset_Dialogue: A simple dialogue data asset that represents a unique character’s speech. It contains information about the character’s dialogue lines and includes helper methods.
+
+UDataAsset_InventoryItem: Configuration data used by items for display in the inventory system. It also determines how an item should appear in the inventory preview.
+
+IInventoryInterface: An interface used for retrieving inventory information.
+
+The rest of the implementation was done using Blueprints, which are also fully documented within the project.
+
 # How To Test
 You can move the character using the W-A-S-D keys, and use the 'E' key to interact with objects. To drag and drop items in the inventory, click and hold with Mouse1, then drag. To drop an item, simply release the mouse button. You can use the same drag operation to rotate the object in the inventory preview, and use the mouse wheel to zoom in and out.
