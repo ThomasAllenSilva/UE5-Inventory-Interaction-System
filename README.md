@@ -2,7 +2,7 @@
 
 ##### Table of Contents  
 
-[Implementation](#how-it-works)
+[How It Works](#how-it-works)
 
 [How To Test](#how-to-test)
 
