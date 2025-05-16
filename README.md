@@ -39,7 +39,7 @@ UActorComponent that stores information about items collected by the Player. It 
 UBoxComponent used to identify actors that implements the IInteractableInterface. It serves the purpose of sending events to the interactable object when it's focused and unfocused. These events are used to display widgets inside the world. When the interaction input is pressed, it starts the interaction with the 'Current Focused Interactable Actor'.
 
 # Interactable Interface
-This can be implemented by any Actor that you wish to have a sort of interaction. There's two interactions type in this project: Dialogue & Collectable Item. They both use this same interface, implementing their own logic.
+This can be implemented by any Actor that you want to have some form of interaction. It receives events for when the object is focused, unfocused, and also when the player wants to interact with it. There are two types of interaction in this project: Dialogue and Collectable Item. They both use the same interface, implementing their own logic.
 
 # How To Test
 Test2
