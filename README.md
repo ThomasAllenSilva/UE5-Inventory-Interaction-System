@@ -30,6 +30,8 @@ In this project, there's also a WidgetDefinition for the Dialogue Actor and the 
 
 ![image](https://github.com/user-attachments/assets/e2f2c60b-52ae-4f89-b187-31c4a2f83450)
 
+This allowed for a very easy implementation of widget display in combination with the [Interactable Interface](#interactable-interface) events.
+
 # Inventory Component
 UActorComponent that stores information about items collected by the Player. It has information about the maximum capacity and the Current Inventory Items stored in this component. This information is used to display the inventory widget. It also have events for when an item is added or removed.
 
